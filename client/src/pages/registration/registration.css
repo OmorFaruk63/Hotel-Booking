@@ -1,0 +1,40 @@
+.registration {
+  width: 360px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.registration h2 {
+  text-align: center;
+}
+.registration label {
+  display: block;
+  margin: 10px 0;
+}
+.registration input {
+  width: 90%;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(215, 215, 215);
+}
+.registration button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  background-color: #0f6bffff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.registration svg {
+  font-size: 23px;
+  position: relative;
+  top: 6px;
+  left: 5px;
+  color: #0f6bffff;
+}
+.registration span {
+  color: rgb(255, 0, 0);
+}

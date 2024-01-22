@@ -1,0 +1,71 @@
+.header {
+  overflow: hidden;
+  /*background: url("https://www.trip.me/old-wp-content/2013/11/Green-waterfalls.gif");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.headerContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
+}
+
+.headerContainer.listMode {
+  margin: 20px 0px 0px 0px;
+}
+
+.headerTitle {
+  width: 80%;
+  font-size: 3.5vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.headerBtn {
+  position: absolute;
+  background-color: #ffffff;
+  color: #0071c2;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 2px solid #0071c2;
+  top: 40px;
+  right: 40px;
+}
+.headerBtn1 {
+  position: absolute;
+  background-color: #ffffff;
+  color: #0071c2;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 2px solid #0071c2;
+  top: 60px;
+  right: 40px;
+}
+.headerBtn:hover {
+  background-color: #0071c2;
+  color: #ffffff;
+}
+
+@media (max-width: 550px) {
+  .headerTitle {
+    font-size: 25px;
+  }
+}
